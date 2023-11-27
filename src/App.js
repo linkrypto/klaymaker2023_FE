@@ -30,14 +30,14 @@ function App() {
 
             <Route path="/portfolio" element={<TopNav />} />
             <Route path="/products" element={<TopNav />} />
-            <Route path="/invest" element={<TopNav />} />
-            <Route path="/invest/:chain" element={<TopNav />} />
-            <Route path="/lend" element={<TopNav />} />
+            {/* <Route path="/invest" element={<TopNav />} />
+            <Route path="/invest/:chain" element={<TopNav />} /> */}
+            {/* <Route path="/lend" element={<TopNav />} /> */}
             <Route path="/detail/staking/:id" element={<TopNav />} />
             <Route path="/detail/lending/:id" element={<TopNav />} />
 
-            <Route path="/manage/:id" element={<TopNav />} />
-            <Route exact path="/stable/:id" element={<TopNav />} />
+            {/* <Route path="/manage/:id" element={<TopNav />} />
+            <Route exact path="/stable/:id" element={<TopNav />} /> */}
           </Routes>
         <Routes>
           <Route exact path="/" element={<Landing />} />
@@ -45,13 +45,13 @@ function App() {
           {/* <Route path="/detail/:id" element={<Detail />} /> */}
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/products" element={<Products />} />
-          <Route exact path="/invest" element={<Invest />} />
-          <Route path="/invest/:chain" element={<EthInvest />} />
-          <Route path="/lend" element={<Lending />} />
+          {/* <Route exact path="/invest" element={<Invest />} />
+          <Route path="/invest/:chain" element={<EthInvest />} /> */}
+          {/* <Route path="/lend" element={<Lending />} /> */}
           <Route path="/detail/lending/:id" element={<DetailLending />} />
           <Route path="/detail/staking/:id" element={<DetailStaking />} />
-          <Route path="/manage/:id" element={<Manage />} />
-          <Route exact path="/stable/:id" element={<StableManage />} />
+          {/* <Route path="/manage/:id" element={<Manage />} />
+          <Route exact path="/stable/:id" element={<StableManage />} /> */}
         </Routes>
       </Router>
     </>
