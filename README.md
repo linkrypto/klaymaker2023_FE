@@ -1,10 +1,14 @@
 # Linkrypto
 
-# Crypto asset management service powered by Active Wallet
+## Crypto asset management service powered by Active Wallet
+
+demo : https://www.linkrypto.io
+
+---
 
 Frontend Code for Klaymaker2023 Hackerton. (DeFi track)
 
-Active Wallet Smart Contract :
+Active Wallet Smart Contract Repo
 
 3rd Party service used
 
@@ -12,7 +16,5 @@ Active Wallet Smart Contract :
 - Oracle service : https://orakl.network
 - DeFi Data : https://www.klaylabs.net
 - onchain Data : https://bitquery.io
-
-demo : https://www.linkrypto.io
 
 **Copyright (c) 2023 Linkrypto**
