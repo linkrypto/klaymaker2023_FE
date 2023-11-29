@@ -1,14 +1,12 @@
 # Linkrypto
 
-## Crypto asset management service powered by Active Wallet
+## Kind DeFi Investment Manager
 
 demo : https://www.linkrypto.io
 
 ---
 
 Frontend Code for Klaymaker2023 Hackerton. (DeFi track)
-
-Active Wallet Smart Contract Repo
 
 3rd Party service used
 
@@ -17,6 +15,7 @@ Active Wallet Smart Contract Repo
 - DeFi Data : https://www.klaylabs.net
 
 Contract Address (Klaytn Mainnet - Cypress)
+
 - VaultFactory : 0xAc37926f0df5c114E044c1CFF0B21a72F8118E10
 
 **Copyright (c) 2023 Linkrypto**
